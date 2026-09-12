@@ -3,7 +3,7 @@ import BannerImage from "../assets/banner-stack.png";
 
 const Banner = () => {
   return (
-    <div className="flex justify-between container mx-auto items-center py-[20px] ml-[104.5px]">
+    <div className="flex justify-between container mx-auto items-center py-5 ml-[104.5px]">
       <div>
         <h1 className="font-extrabold text-[60px] mb-2">
           Build Your Ideal
@@ -20,15 +20,15 @@ const Banner = () => {
           next project.
         </p>
         <div className="mb-2 mt-6">
-          <button className="bg-linear-to-r from-pink-500 to-purple-600 text-white font-semibold shadow-sm transition-all px-[12px] py-[10px] rounded-[10px]">
+          <button className="bg-linear-to-r from-pink-500 to-purple-600 text-white font-semibold shadow-sm transition-all px-3 py-2.5 rounded-[10px]">
             Explore Technologies
           </button>
-          <button className="font-regular font-weight-[14px] shadow-sm transition-all text-[#374151] px-[35px] py-[12px]">
+          <button className="font-regular font-weight-[14px] shadow-sm transition-all text-[#374151] px-8.75 py-3">
             Learn More
           </button>
         </div>
       </div>
-      <div className="min-h-[400px] mr-[104.5px]">
+      <div className="min-h-100 mr-[104.5px]">
         <img src={BannerImage} alt="" />
       </div>
     </div>
