@@ -20,10 +20,10 @@ const Banner = () => {
           next project.
         </p>
         <div className="mb-2 mt-6">
-          <button className="bg-linear-to-r from-pink-500 to-purple-600 text-white font-semibold shadow-sm transition-all px-3 py-2 rounded-[10px]">
+          <button className="bg-linear-to-r from-pink-500 to-purple-600 text-white font-semibold shadow-sm transition-all px-3 py-2 rounded-[10px] cursor-pointer">
             Explore Technologies
           </button>
-          <button className="font-regular text-[14px] shadow-sm transition-all text-[#374151] px-8.75 py-3">
+          <button className="font-regular text-[14px] shadow-sm transition-all text-[#374151] px-8.75 py-3 cursor-pointer">
             Learn More
           </button>
         </div>

@@ -4,7 +4,7 @@ import Logo from "../assets/logo-text.png";
 const Navbar = () => {
   return (
     <nav>
-      <div className="flex justify-between container mx-auto items-center py-[20px]">
+      <div className="flex justify-between container mx-auto items-center py-5">
         <div className="ml-[104.5px]">
           <img src={Logo} alt="" />
         </div>
@@ -19,8 +19,8 @@ const Navbar = () => {
           </div>
         </ul>
         <div className="flex gap-2.5 mr-[104.5px]">
-          <button className="font-medium text-[14px] text-[#334155] px-2 py-1">Sign In</button>
-          <button className="font-semibold text-[14px] text-[#FFFFFF] bg-[#D91B7E] px-2 py-1 rounded-[16px]">Sign Up</button>
+          <button className="font-medium text-[14px] text-[#334155] px-2 py-1 cursor-pointer">Sign In</button>
+          <button className="font-semibold text-[14px] text-[#FFFFFF] bg-[#D91B7E] px-2 py-1 rounded-[16px] cursor-pointer">Sign Up</button>
         </div>
       </div>
     </nav>
